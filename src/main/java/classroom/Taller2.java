@@ -19,10 +19,10 @@ public class Taller2 {
         grupo2.cambiarEstudiante(0, estudiantes1[0]);
         grupo2.cambiarEstudiante(1, estudiantes1[2]);
         grupo2.cambiarEstudiante(estudiantes1[0], estudiantes1[1]);
-
+        
         System.out.println(new Asignatura().nombre);
         System.out.println(grupo2.codigo);
-        System.out.println(asignatura2.codigoExterno);
+        System.out.println(asignatura2.codigoExterno);        
         asignatura1.cambiarDatos(50);
         System.out.println(asignatura1.codigoExterno);
         System.out.println(estudiantes1[1].cedula);
